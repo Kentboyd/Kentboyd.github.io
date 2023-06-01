@@ -1,0 +1,19 @@
+*{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+.abm_container{
+    align-self:flex-start;
+}
+.ci_container{
+    align-self:center;
+}
+.skil_container{
+    align-self:flex-end;
+}
+.icn_container{
+    align-self:flex-end;
+}
