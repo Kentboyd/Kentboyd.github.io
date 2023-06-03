@@ -5,11 +5,14 @@
     margin: 0;
     padding: 0;
     min-width: 150px;
-    max-width: 1000px;
+    max-width: auto;
 }
 html {
     font-size: 18px;
     margin-top: 3em;
+    background: url("/images/chicago_skyline.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header,
@@ -17,6 +20,18 @@ main,
 footer{
     margin:0 auto;
     max-width: 800px;
+}
+
+h2{
+    font-size: 3em;
+    font-family:sans-serif;
+    text-align: center;
+    color: whitesmoke;
+}
+
+p, li{
+    color: whitesmoke;
+    font-size: 1.5em;
 }
 
 
@@ -48,16 +63,14 @@ nav a:hover {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    background-color: coral;
     border-radius: 30px;
 }
 
 #bio{
     align-self: flex-end;
-    width: 50%;
+    width: 100%;
     border-style: double;
     padding: 2em;
-    background-color: green;
 }
 #bio > img{
     width: 275px;
@@ -69,14 +82,16 @@ nav a:hover {
     border-style: double;
     order: 1;
     align-self:flex-start;
-    background-color: red;
+}
+
+#contact > a {
+    align-self: center;
 }
 
 #skills{
     width: 100%;
     border-style: double;
     align-self: flex-start;
-    background-color: blue;
 }
 
 
@@ -88,22 +103,22 @@ nav a:hover {
 }
 #projects-2 article{
     border-style: double;
-    
+    border-color: antiquewhite;
     padding: 2em;
 }
 
 #projects-2 article img{
-    width:170px;
+    width: 170px;
 }
 
 footer{
     border-style: double;
     margin-top: 2em;
     margin-bottom: 1em;
-    background:#666;
-    color: #fff;
+    color: whitesmoke;
     padding: 1em 0;
     text-align: center;
+    font-size: 1em;
 }
 
 
